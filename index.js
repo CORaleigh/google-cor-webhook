@@ -29,7 +29,7 @@ exports.yourAction = (req, res) => {
   }
 
   const actionMap = new Map();
-  actionMap.set('find_trash_day', responseHandler);
+  actionMap.set('find_trash_day', responseHandler); 
 
   assistant.handleRequest(actionMap);
 };
